@@ -1,9 +1,8 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 
-
 const Github = () => {
-  const data = useLoaderData()
+  const data = useLoaderData();
   // const [data, setData] = useState({});
   // useEffect(() => {
   //   fetch("https://api.github.com/users/PITPL-HITESH-PANCHANI")

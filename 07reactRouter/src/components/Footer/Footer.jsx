@@ -22,17 +22,38 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 font-medium">
                 <li className="mb-2">
-                  <NavLink to="/" className={({isActive})=>`hover:underline ${isActive ? "text-orange-700":"text-gray-700"}`}>
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      `hover:underline ${
+                        isActive ? "text-orange-700" : "text-gray-700"
+                      }`
+                    }
+                  >
                     Home
                   </NavLink>
                 </li>
                 <li className="mb-2">
-                  <NavLink to="/about" className={({isActive})=>`hover:underline ${isActive ? "text-orange-700":"text-gray-700"}`}>
+                  <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                      `hover:underline ${
+                        isActive ? "text-orange-700" : "text-gray-700"
+                      }`
+                    }
+                  >
                     About
                   </NavLink>
                 </li>
                 <li className="mb-2">
-                  <NavLink to="/contact" className={({isActive})=>`hover:underline ${isActive ? "text-orange-700":"text-gray-700"}`}>
+                  <NavLink
+                    to="/contact"
+                    className={({ isActive }) =>
+                      `hover:underline ${
+                        isActive ? "text-orange-700" : "text-gray-700"
+                      }`
+                    }
+                  >
                     Contact
                   </NavLink>
                 </li>
